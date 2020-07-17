@@ -1,0 +1,85 @@
+body {
+    background-color: linen;
+    margin: 0em;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: grey;
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#logo {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+#links {
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+header {
+    height: 250px;
+    width: 100vw;
+    font-size: 35px;
+    color: yellow;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    /* align-content: space-around; */
+    flex-wrap: wrap;
+}
+
+.blue {
+    width: 250px;
+    height: 250px;
+    background-color: cornflowerblue;
+    margin: 40px;
+    border-radius: 15%;
+}
+
+.yellow {
+    width: 40%;
+    height: 250px;
+    background-color: yellow;
+    margin: 30px;
+}
+
+.text {
+    width: 30%;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.img {
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+    background-image: url(https://cdn.facilityexecutive.com/wp-content/uploads/2019/10/Thumbs.Up_-503x300.jpg);
+    background-size: contain;
+}
+
+footer {
+    margin-bottom: 0;
+    height: 110px;
+    width: 100%;
+    background-color: grey;
+}
